@@ -102,7 +102,7 @@ class TextFilteringState extends State<TextFiltering> {
                 color: Colors.white,
                 border:
                 Border.all(color: Color(0xffDCDCDC), width: 2),
-                borderRadius: BorderRadius.circular(25)),
+                borderRadius: BorderRadius.circular(10)),
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.symmetric(
@@ -153,10 +153,10 @@ class TextFilteringState extends State<TextFiltering> {
           },
           child: Container(
             height: 45,
-            margin: EdgeInsets.symmetric(horizontal: width * 7),
+            margin: EdgeInsets.symmetric(horizontal: width * 5),
             decoration: BoxDecoration(
                 color: Theme.of(context).primaryColor,
-                borderRadius: BorderRadius.circular(25)),
+                borderRadius: BorderRadius.circular(10)),
             child: Center(
               child: Text(
                 'Filter',
@@ -265,7 +265,7 @@ class TextFilteringState extends State<TextFiltering> {
             margin: EdgeInsets.symmetric(horizontal: width * 7),
             decoration: BoxDecoration(
                 color: Theme.of(context).primaryColor,
-                borderRadius: BorderRadius.circular(25)),
+                borderRadius: BorderRadius.circular(10)),
             child: Center(
               child: Text(
                 'Reset',
